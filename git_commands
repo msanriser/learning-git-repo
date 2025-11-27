@@ -1,0 +1,9 @@
+git remote add origin git@github.com:msanriser/learning-git-repo.git # to connect with remote repo
+git diff 82bf3bfa820f67d55ab212d11622f15d08e1f4f9 29a6ed83d276a1abdc07cfc6340b622a9442e1ba # to do diff on commits
+git log # to see git commits log
+git config --global user.email "you@example.com" # to setup your email
+git config --global user.name "Your Name"        # to setup your username
+git add . # to stage files
+git commit -m "message" # to commit staged files 
+git commit --amend # to add more stuff onto your commit
+git rm --cached <file> #  to unstage
